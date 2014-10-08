@@ -1,5 +1,5 @@
 # Permalinks
-permalink:        pretty
+permalink:        /:year/:month/:day/:title/
 relative_permalinks: true
 
 # Setup
