@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Videolog: Monolith is on the ropes!"
-date: 2010-02-16 14:05:00
+date: 2010-02-16 02:05:00
 category: Monolith
 tags:
   - gameplay
