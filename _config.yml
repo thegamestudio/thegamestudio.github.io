@@ -3,8 +3,8 @@ permalink:        pretty
 relative_permalinks: true
 
 # Setup
-title:            Poole
-tagline:          The Jekyll Butler
+title:            The Game Studio
+tagline:          Creators of fine games.
 url:              http://thegamestudio.co
 paginate:         5
 baseurl:          /
