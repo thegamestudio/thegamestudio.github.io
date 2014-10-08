@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Videolog: Monolith first look.
+title: "Videolog: Monolith first look."
 category: Monolith
 tags:
   - gameplay
