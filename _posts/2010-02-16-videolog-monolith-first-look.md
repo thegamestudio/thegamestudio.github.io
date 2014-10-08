@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Videolog: Monolith first look."
-date: 2010-02-16 14:03:00
+date: 2010-02-16 02:03:00
 category: Monolith
 tags:
   - gameplay
