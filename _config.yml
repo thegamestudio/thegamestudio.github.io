@@ -6,7 +6,7 @@ relative_permalinks: true
 title:            Poole
 tagline:          The Jekyll Butler
 url:              http://thegamestudio.co
-paginate:         1
+paginate:         5
 baseurl:          /
 author:
   name:           Zachary Lewis
