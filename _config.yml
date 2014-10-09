@@ -12,6 +12,9 @@ author:
   name:           Zachary Lewis
   url:            https://twitter.com/zachwlewis
   email:          zachwlewis@gmail.com
+  
+# Conversion
+excerpt_separator: "<!--more-->"
 
 # Custom vars
 version:          1.0.0
