@@ -353,7 +353,8 @@ tbody tr:nth-child(odd) th {
 }
 
 /* Center embedded content in a post. */
-.post iframe {
+.post iframe,
+.post img {
   display: block;
   margin-left: auto;
   margin-right: auto;
