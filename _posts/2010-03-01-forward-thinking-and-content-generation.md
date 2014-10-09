@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Videolog: Monolith is on the ropes!"
+title: "Forward Thinking and Content Generation"
 date: 2010-03-01 06:50:00
 category: Monolith
 tags:
