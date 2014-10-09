@@ -20,27 +20,27 @@ As a developer, I've got to constantly ask these questions (and often times, com
 
 <!--more-->
 
-![average-tower][An average-sized tower.]
+![An average-sized tower.][average-tower]
 
 The new map editor will allow a level designer to specify any height and width (although, if you put in crazy numbers, the game will just crash), and the game will dynamically determine the proper radius to make the tower look right. The radius is calculated with a bit of clever math, but it can handle map sizes from very small to very, game-breakingly large.
 
-![large-tower][Woah, that's a big tower!]
+![Woah, that's a big tower!][large-tower]
 
 An arc-length can be defined by the following equation:
 
-<p style="text-align: center;"><a href="http://www.codecogs.com/eqnedit.php?latex=\200dpi \theta = \frac{s}{r}" target="_blank"><img title="\200dpi \theta = \frac{s}{r}" src="http://latex.codecogs.com/png.latex?\200dpi \theta = \frac{s}{r}" alt="" /></a>.</p>
+<img title="\200dpi \theta = \frac{s}{r}" src="http://latex.codecogs.com/png.latex?\200dpi \theta = \frac{s}{r}" alt="">
 
 This states that any angle can be represented as an arc-length divided by a radius. Since the arc-length of each block is a constant (each tile has a fixed size of 96x96 pixels), I needed to determine what the proper angle was for the radius of the tower to look right.
 
 The angle could be determined by dividing the total radians in a circle by the number of tiles in a tower map, w, giving us the following equation:
 
-<a href="http://www.codecogs.com/eqnedit.php?latex=\200dpi \theta = \frac{2\pi}{w}" target="_blank"><img title="\200dpi \theta = \frac{2\pi}{w}" src="http://latex.codecogs.com/png.latex?\200dpi \theta = \frac{2\pi}{w}" alt="" /></a>.
+<img title="\200dpi \theta = \frac{2\pi}{w}" src="http://latex.codecogs.com/png.latex?\200dpi \theta = \frac{2\pi}{w}" alt="">
 
 Now that the angle-per-tile for the map is calculated, the radius can be determined with the following equation:</p>
 
-<a href="http://www.codecogs.com/eqnedit.php?latex=\200dpi r = \frac{s}{\theta} = \frac{s w}{2\pi}" target="_blank"><img title="\200dpi r = \frac{s}{\theta} = \frac{s w}{2\pi}" src="http://latex.codecogs.com/png.latex?\200dpi r = \frac{s}{\theta} = \frac{s w}{2\pi}" alt="" /></a>.
+<img title="\200dpi r = \frac{s}{\theta} = \frac{s w}{2\pi}" src="http://latex.codecogs.com/png.latex?\200dpi r = \frac{s}{\theta} = \frac{s w}{2\pi}" alt="">
 
-![small-tower][A cute, little tower.]
+![A cute, little tower.][small-tower]
 
 Once the math was applied, varying the tower's radius was as simple as changing the width of the tower's map. This allows level designers to jump in and create towers of any height and width without worrying about any of that math business.
 
