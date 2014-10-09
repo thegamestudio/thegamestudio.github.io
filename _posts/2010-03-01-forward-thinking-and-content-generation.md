@@ -36,7 +36,7 @@ The angle could be determined by dividing the total radians in a circle by the n
 
 <img title="\200dpi \theta = \frac{2\pi}{w}" src="http://latex.codecogs.com/png.latex?\200dpi \theta = \frac{2\pi}{w}" alt="">
 
-Now that the angle-per-tile for the map is calculated, the radius can be determined with the following equation:</p>
+Now that the angle-per-tile for the map is calculated, the radius can be determined with the following equation:
 
 <img title="\200dpi r = \frac{s}{\theta} = \frac{s w}{2\pi}" src="http://latex.codecogs.com/png.latex?\200dpi r = \frac{s}{\theta} = \frac{s w}{2\pi}" alt="">
 
