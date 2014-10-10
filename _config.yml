@@ -5,9 +5,9 @@ relative_permalinks: true
 # Setup
 title:            The Game Studio
 tagline:          Creators of fine games.
-url:              http://thegamestudio.co
+url:              http://thegamestudio.co/
 paginate:         5
-baseurl:          http://thegamestudio.co
+baseurl:          http://thegamestudio.co/
 author:
   name:           Zachary Lewis
   url:            https://twitter.com/zachwlewis
