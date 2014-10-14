@@ -9,7 +9,7 @@ tags:
   - screenshot
 ---
 
-[![Red Chaser][screenshot][game]
+[![Red Chaser][screenshot]][game]
 
 BRAN NEW GAME, Y'ALL. You can [play it on Kongregate now][game]! It was created in under 24 hours, and features music from [Cartoon Bomb][music]. Here's some deets:
 
