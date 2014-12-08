@@ -31,7 +31,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.25;
   color: #313131;
   text-rendering: optimizeLegibility;
-  font-family: 'Montserrat', serif;
+  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
 }
 
 h1 {
@@ -51,4 +51,8 @@ h3 {
 h4, h5, h6 {
   margin-top: 1rem;
   font-size: 1rem;
+}
+
+.pagination {
+  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
 }
