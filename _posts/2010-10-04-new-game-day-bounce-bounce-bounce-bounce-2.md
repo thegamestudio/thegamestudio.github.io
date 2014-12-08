@@ -1,10 +1,10 @@
 ---
 layout: post
 title: "New Game Day: Bounce Bounce Bounce Bounce!"
-category: Podcast
+category: "Bounce Bounce Bounce Bounce"
 tags:
-  - design
-  - podcast
+  - game release
+  - marketing
 ---
 
 ![Bounce Bounce Bounce Bounce] [img]
