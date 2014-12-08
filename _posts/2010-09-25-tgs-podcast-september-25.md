@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The Game Studio Podcast: August 28"
+title: "TGS Podcast: September 25 2010"
 category: Podcast
 tags:
   - design
